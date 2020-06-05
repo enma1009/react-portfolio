@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Rubik:wght@300;400&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.title-font {
+  font-family: 'Alice', serif;
+}
+h2 {
+  border-bottom: 8px solid #2b2a23;
+  display:table;
+}
+.light-font {
+  font-weight: 300;
+}
+
+.bold-font {
+  font-weight: 400;
+}
+
+ h1 {
+   display:table-cell;
+ }
+.name {
+  font-size: 2.5em;
+}
+
+.intro-border {
+  border-bottom: 16px solid #2b2a23;
+}
+
+.header-section {
+  background-color: red;
+  min-height: 100vh;
+}
+
+.header-graphic-01 {
+  position: absolute;
+  top: 0;
+}
+
+.header-graphic-02 {
+  position: absolute;
+  bottom: 0;
+}
+
+.menu {
+  list-style-type: none;
+  border-left: 8px solid #2b2a23;
+  margin: 0;
+  padding-left: 20px;
+  line-height: 2em;
+  
+}
+
+.menu li a {
+  font-weight: 400;
+  color: #2b2a23;
+}
+
+.menu li a:hover {
+  color: #191814;
+  text-decoration: none;
+}
+
+.yellow_bgrd {
+  background-color: #f7f47c;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fcfbf5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); 
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
