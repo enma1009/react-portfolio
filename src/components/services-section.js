@@ -14,10 +14,10 @@ class ServicesSection extends Component {
     render() {
         return (
             <Container fluid className="yellow_bgrd" id="services">
-                <Container style={{border:'1px solid black'}}>
+                <Container>
                     <Row>
                         <Col></Col>
-                        <Col xs={{ span: 3, offset: 4 }} style={{border:'1px solid black'}}>
+                        <Col xs={{ span: 3, offset: 4 }}>
                             <img className="header-graphic-01 img-fluid" height="100%" src={ServicesGraphic} alt="decorative circle" />
                         </Col>
                     </Row>
@@ -27,27 +27,27 @@ class ServicesSection extends Component {
                     If you need anything else, get in touch! I have many hidden talents.</p>
 
                     <Row className="text-center mb-5">
-                        <Col xs={6} sm={4} md={{ span: 2, offset: 1 }} style={{border:'1px solid black'}}>
+                        <Col xs={6} sm={4} md={{ span: 2, offset: 1 }}>
                             <img width="100%" src={PrintIcon} alt="print icon" />
                             <p className="bold-font">PRINT</p>
                             <p>Brochures, booklets, flyers, posters, print ads, billboards &amp; more</p>
                         </Col>
-                        <Col xs={6} sm={4} md={2} style={{border:'1px solid black'}}>
+                        <Col xs={6} sm={4} md={2}>
                             <img width="100%" src={IllustrationIcon} alt="illustration icon" />
                             <p className="bold-font">ILLUSTRATION</p>
                             <p>Custom graphics, icons &amp; illustrations for your needs</p>
                         </Col>
-                        <Col xs={6} sm={4} md={2} style={{border:'1px solid black'}}>
+                        <Col xs={6} sm={4} md={2}>
                             <img width="100%" src={MarketingIcon} alt="marketing icon" />
                             <p className="bold-font">MARKETING</p>
                             <p>Creative assets for your social media presence &amp; e-blasts</p>
                         </Col>
-                        <Col xs={6} sm={4} md={2} style={{border:'1px solid black'}}>
+                        <Col xs={6} sm={4} md={2}>
                             <img width="100%" src={BrandingIcon} alt="branding icon" />
                             <p className="bold-font">BRANDING</p>
                             <p>Carefully crafted logos &amp; visual elements</p>
                         </Col>
-                        <Col xs={6} sm={4} md={2} style={{border:'1px solid black'}}>
+                        <Col xs={6} sm={4} md={2}>
                             <img width="100%" src={WebIcon} alt="web icon" />
                             <p className="bold-font">WEB DESIGN</p>
                             <p>UI Design &amp; programming of fresh websites</p>

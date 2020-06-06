@@ -9,10 +9,17 @@ body {
 .title-font {
   font-family: 'Alice', serif;
 }
+
 h2 {
   border-bottom: 8px solid #2b2a23;
   display:table;
 }
+
+.yellow-title {
+  color: #f7f47c;
+  border-bottom: 8px solid #f7f47c;
+}
+
 .light-font {
   font-weight: 300;
 }
@@ -68,6 +75,14 @@ h2 {
 
 .yellow_bgrd {
   background-color: #f7f47c;
+}
+
+.bgrd_shaded {
+  background-color: #e5e4d3;
+}
+
+.bgrd_dark {
+  background-color: #2b2a23;
 }
 
 /* .App {

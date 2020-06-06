@@ -10,8 +10,9 @@ class WorkSection extends Component {
 
     render() {
         return (
-            <Container>
-                <h2 className="title-font mt-5 mb-5">work samples</h2>
+            <Container id="work">
+                <h2 className="title-font mt-5 mb-2">work samples</h2>
+                <p className="mb-5">To see some of my graphic design &amp; illustration projects, visit my <a href="https://www.behance.net/enidsoto" target="_blank" rel="noopener noreferrer">behance profile.</a></p>
                 <Row>
                 {ProjectImages.map(item => (
                     <Col key={item.id} xs={6} md={3}>

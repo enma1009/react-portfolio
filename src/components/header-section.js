@@ -9,7 +9,7 @@ import headerGraphic03 from "../assets/images/header-graphic-03.svg";
 class HeaderSection extends Component {
     render() {
         return (
-            <Container style={{border:'1px solid black'}}>
+            <Container>
                 <Row>
                     <Col xs={8}>
                         <img className="header-graphic-01 img-fluid" height="100%" src={headerGraphic01} alt="decorative circles" />
@@ -24,21 +24,21 @@ class HeaderSection extends Component {
                     </Col>
                 </Row>
                 <Row className="mt-5 pb-5">
-                    <Col xs={{ span: 8, offset: 1 }} style={{border:'1px solid black'}}>
+                    <Col xs={{ span: 8, offset: 1 }}>
                         <h1 className="light-font align-bottom">Hello, <br />
                             my name is <br />
                             <span className="title-font name">Enid</span>
                         </h1>
                     </Col>
-                    <Col xs={2} style={{border:'1px solid black'}}>
+                    <Col xs={2}>
                     <img className="header-graphic-02 img-fluid" height="100%" src={headerGraphic02} alt="decorative circle" />
                     </Col>
                 </Row>
                 <Row className="mt-5">
-                    <Col xs={{ span: 4, offset: 1 }} className="intro-border" style={{border:'1px solid black'}}>
+                    <Col xs={{ span: 4, offset: 1 }} className="intro-border" style={{padding:0}}>
                         <p>I am an experienced graphic designer, illustrator and aspiring UX/UI designer.</p>
                     </Col>
-                    <Col xs={{ span: 3, offset: 4 }} style={{border:'1px solid black'}}>
+                    <Col xs={{ span: 3, offset: 4 }}>
                     <img className="header-graphic-02 img-fluid" height="100%" src={headerGraphic03} alt="decorative circle" />
                     </Col>
                 </Row>
