@@ -14,7 +14,7 @@ class ServicesSection extends Component {
     render() {
         return (
             <Container fluid className="yellow_bgrd" id="services">
-                <Container>
+                <Container className="pb-5">
                     <Row>
                         <Col></Col>
                         <Col xs={{ span: 3, offset: 4 }}>
@@ -26,7 +26,7 @@ class ServicesSection extends Component {
                     <p className="text-center">These are a few of the things I can do. <br />
                     If you need anything else, get in touch! I have many hidden talents.</p>
 
-                    <Row className="text-center mb-5">
+                    <Row className="text-center">
                         <Col xs={6} sm={4} md={{ span: 2, offset: 1 }}>
                             <img width="100%" src={PrintIcon} alt="print icon" />
                             <p className="bold-font">PRINT</p>

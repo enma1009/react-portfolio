@@ -10,7 +10,7 @@ class WorkSection extends Component {
 
     render() {
         return (
-            <Container id="work">
+            <Container id="work" className="pb-5">
                 <h2 className="title-font mt-5 mb-2">work samples</h2>
                 <p className="mb-5">To see some of my graphic design &amp; illustration projects, visit my <a href="https://www.behance.net/enidsoto" target="_blank" rel="noopener noreferrer">behance profile.</a></p>
                 <Row>
