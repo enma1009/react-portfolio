@@ -12,7 +12,8 @@ class HeaderSection extends Component {
             <Container style={{border:'1px solid black'}}>
                 <Row>
                     <Col xs={8}>
-                        <img className="header-graphic-01 img-fluid" height="100%" src={headerGraphic01} alt="decorative circles" /></Col>
+                        <img className="header-graphic-01 img-fluid" height="100%" src={headerGraphic01} alt="decorative circles" />
+                    </Col>
                     <Col xs={{ span: 2, offset: 2 }}>
                         <ul className="menu mr-1">
                             <li><a href="#services">Services</a></li>

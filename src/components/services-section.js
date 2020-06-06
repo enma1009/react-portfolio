@@ -13,7 +13,7 @@ import WebIcon from "../assets/images/web-icon.svg";
 class ServicesSection extends Component {
     render() {
         return (
-            <Container fluid className="yellow_bgrd">
+            <Container fluid className="yellow_bgrd" id="services">
                 <Container style={{border:'1px solid black'}}>
                     <Row>
                         <Col></Col>
